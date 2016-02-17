@@ -2486,7 +2486,73 @@ label,
     position: absolute !important;
     width: 1px !important; } }
 /* endif */
-body h1 {
-  font-size: 36px; }
+.nav_container--global {
+  padding-top: 58px; }
+
+nav {
+  background-color: #000; }
+  nav ul {
+    text-align: center; }
+
+li {
+  display: inline-block;
+  padding: 12px;
+  padding-right: 20px; }
+  li a {
+    color: #bfbfbf;
+    text-decoration: none;
+    padding: 25px; }
+    li a:hover {
+      color: #FF4500; }
+    li a:visited {
+      color: #FF4500; }
+
+.main_header--image {
+  background-image: url("../optimised/header.jpg");
+  height: 100%; }
+
+h1 {
+  font-size: 96px;
+  padding-top: 100px;
+  color: #fff; }
+
+.main_header--subtitle {
+  color: #fff; }
+
+.nav_container--global {
+  padding-top: 58px; }
+
+nav {
+  background-color: #000; }
+  nav ul {
+    text-align: center; }
+
+li {
+  display: inline-block;
+  padding: 12px;
+  padding-right: 20px; }
+  li a {
+    color: #bfbfbf;
+    text-decoration: none;
+    padding: 25px; }
+    li a:hover {
+      color: #FF4500; }
+    li a:visited {
+      color: #FF4500; }
+
+body {
+  text-align: center;
+  background-color: #000; }
+
+h2 {
+  font-size: 30px;
+  color: #fff; }
+
+p {
+  line-height: 24px;
+  color: #fff; }
+
+.nav_list--article {
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

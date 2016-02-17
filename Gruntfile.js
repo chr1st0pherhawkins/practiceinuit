@@ -31,7 +31,7 @@ module.exports = function(grunt) {
           expand: true,                  // Enable dynamic expansion
           cwd: 'images/',                // Src matches are relative to this path
           src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-          dest: 'optimised/'        // Destination path prefix
+          dest: 'dest/optimised'        // Destination path prefix
         }]
       },
     },
@@ -47,6 +47,4 @@ module.exports = function(grunt) {
   grunt.registerTask('default',['uglify:build','sass']);
   grunt.registerTask('watch',['watch']);
   grunt.registerTask('image',['imagemin']);
-
-
 };
