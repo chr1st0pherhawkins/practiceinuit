@@ -2494,17 +2494,17 @@ nav {
   nav ul {
     text-align: center; }
 
-li {
+.nav_list--main {
   display: inline-block;
   padding: 12px;
   padding-right: 20px; }
-  li a {
+  .nav_list--main > a {
     color: #bfbfbf;
     text-decoration: none;
     padding: 25px; }
-    li a:hover {
+    .nav_list--main > a:hover {
       color: #FF4500; }
-    li a:visited {
+    .nav_list--main > a:visited {
       color: #FF4500; }
 
 .main_header--image {
@@ -2527,17 +2527,17 @@ nav {
   nav ul {
     text-align: center; }
 
-li {
+.nav_list--main {
   display: inline-block;
   padding: 12px;
   padding-right: 20px; }
-  li a {
+  .nav_list--main > a {
     color: #bfbfbf;
     text-decoration: none;
     padding: 25px; }
-    li a:hover {
+    .nav_list--main > a:hover {
       color: #FF4500; }
-    li a:visited {
+    .nav_list--main > a:visited {
       color: #FF4500; }
 
 body {
