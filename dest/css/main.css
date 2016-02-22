@@ -2495,8 +2495,11 @@ h2 {
   font-size: 30px;
   color: #fff; }
 
+h3 {
+  color: #fff; }
+
 p {
-  line-height: 13px;
+  line-height: 26px;
   color: #fff;
   font-size: 20px; }
 
@@ -2523,19 +2526,16 @@ nav {
       color: #FF4500; }
 
 .image_logo--main {
-  background-image: url("../optimised/shape.png");
   padding: 0 auto;
   width: 25px;
   height: 25px; }
 
-.transparent-overlay {
-  position: absolute;
-  left: 0;
-  background-color: transparent(#fff, 0, 5); }
-
 .main_header--image {
   background-image: url("../optimised/header.jpg");
-  height: 100%;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 270px;
+  position: inherit;
   background-repeat: no-repeat; }
 
 .main_header--subtitle {
@@ -2558,5 +2558,14 @@ body {
     font-size: 36.92308px; }
     .nav_list--article > a:hover {
       color: #fff; }
+
+.first_section .first_article {
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.image_line--break {
+  padding: 20px;
+  width: auto; }
 
 /*# sourceMappingURL=main.css.map */
