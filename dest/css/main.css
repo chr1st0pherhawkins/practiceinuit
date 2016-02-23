@@ -2495,9 +2495,6 @@ h2 {
   font-size: 30px;
   color: #fff; }
 
-h3 {
-  color: #fff; }
-
 p {
   line-height: 26px;
   color: #fff;
@@ -2533,8 +2530,7 @@ nav {
 .main_header--image {
   background-image: url("../optimised/header.jpg");
   background-size: cover;
-  height: auto;
-  padding-bottom: 270px;
+  height: 650px;
   position: inherit;
   background-repeat: no-repeat; }
 
