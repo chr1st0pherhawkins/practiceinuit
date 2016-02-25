@@ -2542,8 +2542,7 @@ body {
 
 h1 {
   font-size: 96px;
-  padding-top: 130px;
-  color: #E5E5EC; }
+  padding-top: 130px; }
 
 h2 {
   font-size: 30px;
@@ -2558,7 +2557,7 @@ p {
   padding-top: 58px; }
 
 nav {
-  background-color: #000; }
+  background-color: rgba(191, 189, 213, 0.1); }
   nav ul {
     text-align: center; }
 
@@ -2567,7 +2566,7 @@ nav {
   padding: 6.5px;
   padding-right: 20px; }
   .nav_list--main > a {
-    color: #bfbfbf;
+    color: #ecece5;
     text-decoration: none;
     padding: 30px;
     font-size: 20px; }
@@ -2586,7 +2585,7 @@ nav {
   position: inherit;
   background-repeat: no-repeat; }
 
-.main_header--subtitle {
+.main_header--title {
   color: #E5E5EC; }
 
 .highlight_font {
@@ -2600,10 +2599,15 @@ nav {
   color: #fff;
   display: inline-block; }
   .nav_list--article > a {
-    color: #bfbfbf;
+    color: #fff;
     text-decoration: none;
     font-size: 36.92308px; }
     .nav_list--article > a:hover {
-      color: #fff; }
+      color: #FF4500; }
+
+.border_section {
+  border: 1px groove #A5A3C6;
+  padding: 10px;
+  background-color: #BFBED0; }
 
 /*# sourceMappingURL=main.css.map */
