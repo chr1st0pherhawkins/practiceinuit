@@ -1506,6 +1506,56 @@ label,
 /**
  * Objects and abstractions
  */
+/*------------------------------------*\
+    $FLEXBOX
+\*------------------------------------*/
+/**
+ * Until we can utilise flexbox natively we can kinda, sorta, attempt to emulate
+ * it, in a way... e.g.:
+ *
+   <header class=flexbox>
+
+       <div class=flexbox__item>
+           <b>Welcome to</b>
+       </div>
+
+       <div class=flexbox__item>
+           <img src="//csswizardry.com/inuitcss/img/logo.jpg" alt="inuit.css">
+       </div>
+
+   </header>
+ *
+ * We can also combine our grid system classes with `.flexbox__item` classes,
+ * e.g.:
+ *
+   <div class=flexbox>
+       <div class="flexbox__item  one-quarter">
+       </div>
+       <div class="flexbox__item  three-quarters">
+       </div>
+   </div>
+ *
+ * It’s pretty poorly named I’m afraid, but it works...
+ *
+ * Demo: jsfiddle.net/inuitcss/ufUh2
+ *
+ */
+.flexbox {
+  color: #fff;
+  display: table;
+  width: 100%; }
+
+/**
+ * Nasty hack to circumvent Modernizr conflicts.
+ */
+html.flexbox {
+  display: block;
+  width: auto; }
+
+.flexbox__item {
+  display: table-cell;
+  vertical-align: middle; }
+
 /**
  * Style trumps; helper and brand classes
  */
@@ -2493,7 +2543,7 @@ body {
 h1 {
   font-size: 96px;
   padding-top: 130px;
-  color: #FFFFFE; }
+  color: #E5E5EC; }
 
 h2 {
   font-size: 30px;
@@ -2523,8 +2573,6 @@ nav {
     font-size: 20px; }
     .nav_list--main > a:hover {
       color: #FF4500; }
-    .nav_list--main > a:visited {
-      color: #FF4500; }
 
 .image_logo--main {
   padding: 0 auto;
@@ -2532,14 +2580,17 @@ nav {
   height: 25px; }
 
 .main_header--image {
-  background-image: url("../optimised/header.jpg");
+  background-image: url("../optimised/background.jpg");
   background-size: cover;
   height: 650px;
   position: inherit;
   background-repeat: no-repeat; }
 
 .main_header--subtitle {
-  color: #FFFFFE; }
+  color: #E5E5EC; }
+
+.highlight_font {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
 
 .para_main_header {
   padding-top: 39px; }
@@ -2554,21 +2605,5 @@ nav {
     font-size: 36.92308px; }
     .nav_list--article > a:hover {
       color: #fff; }
-
-.right_col {
-  float: right; }
-
-.left_col {
-  float: left; }
-
-.col_width--main {
-  width: 25%; }
-
-.col_border {
-  padding: 10px;
-  border: 1px solid #000; }
-
-.column_color {
-  background-color: #FF4500; }
 
 /*# sourceMappingURL=main.css.map */
