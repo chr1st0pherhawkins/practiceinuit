@@ -2490,14 +2490,6 @@ body {
   text-align: center;
   background-color: #000; }
 
-.right_col {
-  float: right;
-  width: 25%; }
-
-.left_col {
-  float: left;
-  width: 25%; }
-
 h1 {
   font-size: 96px;
   padding-top: 130px;
@@ -2562,5 +2554,21 @@ nav {
     font-size: 36.92308px; }
     .nav_list--article > a:hover {
       color: #fff; }
+
+.right_col {
+  float: right; }
+
+.left_col {
+  float: left; }
+
+.col_width--main {
+  width: 25%; }
+
+.col_border {
+  padding: 10px;
+  border: 1px solid #000; }
+
+.column_color {
+  background-color: #FF4500; }
 
 /*# sourceMappingURL=main.css.map */
