@@ -6,19 +6,19 @@ module.exports = function(grunt) {
      uglify: {
       build:{
         src:'src/js/main.js',
-        dest:'js/script.min.js'
+        dest:'dest/js/script.min.js'
       },
     },
       sass: {
       dist: {
         files: {
-          'dest/css/main.css':'css/global.scss',
+          'dest/css/main.css':'src/css/global.scss',
         },
       },
     },
     watch: {
       scripts: {
-        files: ['src/scss/main.scss'],
+        files: ['dest/scss/main.scss'],
         tasks: ['sass'],
         options: {
           spawn: false,
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
           expand: true,                  // Enable dynamic expansion
           cwd: 'images/',                // Src matches are relative to this path
           src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-          dest: 'dest/optimised'        // Destination path prefix
+          dest: 'dest/images'        // Destination path prefix
         }]
       },
     },
