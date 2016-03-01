@@ -2567,7 +2567,7 @@ p {
 
 nav {
   background-color: rgba(191, 189, 213, 0.1); }
-  nav ul {
+  nav > ul {
     text-align: center; }
 
 .nav_list--main {
