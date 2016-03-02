@@ -2548,6 +2548,8 @@ h1 {
   line-height: 1.08333;
   padding-top: 169px;
   position: absolute;
+  padding-left: 240px;
+  position: absolute;
   padding-left: 240px; }
 
 h4 {
@@ -2594,26 +2596,27 @@ nav {
   width: 25px;
   height: 25px; }
 
-	/*.main_header--image {
- //background-image: url("../optimised/background.jpg");
+/*.main_header--image {
+//background-image: url("../optimised/background.jpg");
 background-image: url("../images/background.jpg");
-    background-size: cover;
-    height: 650px;
-    position: inherit;
-   background-repeat: no-repeat; */
+background-size: cover;
+height: 650px;
+position: inherit;
+background-repeat: no-repeat; */
 #my_carousel {
   background-size: cover;
   overflow: hidden; }
-  #my_carousel > ul {
-    width: 3900px;
-    padding: 0;
-    margin: 0; }
-    #my_carousel > ul > li {
-      width: 1300px;
-      text-align: center;
-      height: 640px;
-      list-style: none;
-      float: left; }
+
+.slider {
+  width: 3900px;
+  padding: 0;
+  margin: 0; }
+
+.picture_slide {
+  text-align: center;
+  height: 640px;
+  list-style: none;
+  float: left; }
 
 .main_header--title {
   color: #E5E5EC; }
