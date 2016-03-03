@@ -1,4 +1,5 @@
 var y = window.outerWidth;
+//var y = $(window).width();
 $(document).ready(function(){
     // Set the interval to be 5 seconds
     var t = setInterval(function(){
@@ -13,3 +14,5 @@ $(document).ready(function(){
  $(".picture_slide").css("width", y);
  $(".slider").css("width", y*3);
 });
+
+
