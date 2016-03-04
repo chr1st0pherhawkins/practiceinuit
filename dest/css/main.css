@@ -2593,16 +2593,6 @@ nav {
   background-size: cover;
   overflow: hidden; }
 
-.slider {
-  padding: 0;
-  margin: 0; }
-
-.picture_slide {
-  text-align: center;
-  height: 600px;
-  list-style: none;
-  float: left; }
-
 .main_header--title {
   color: #E5E5EC; }
 

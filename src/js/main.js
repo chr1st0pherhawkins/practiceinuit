@@ -11,8 +11,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$(".picture_slide").css("width", y);
-	$(".slider").css("width", y*3);
+	$(".picture_slide").css({"width":y, "float":"left", "height":"600px", "list-style":"none"});
+	$(".slider").css({"width": y*3, "padding":"0", "margin":"0"});
 });
 
 
