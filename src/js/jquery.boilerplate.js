@@ -50,9 +50,7 @@
 
 				// some logic
 				 // Set the interval to be 5 seconds 
-
 				 var y = $(window).width();
-				 $(document).ready(function(){
 				// Set the interval to be 5 seconds
 				var t = setInterval(function(){
 					$("#my_carousel ul").animate({marginLeft:-y },defaults.rotationSpeed,function(){
@@ -60,15 +58,11 @@
 						$(this).css({marginLeft:0});
 					})
 				},defaults.screenTime);
-			});
-
-				//css jquery function to make sure pictures are screen width
-				$(document).ready(function(){
-					$(".picture_slide").css({"width":y, "float":"left", "height":"600px", "list-style":"none"});
-					$(".slider").css({"width": y*3, "padding":"0", "margin":"0"});
-				});
-			}
-		} );
+					//css jquery function to make sure pictures are screen width
+					$(".picture_slide").css("width",y);
+					$(".slider").css("width",y*3);				
+				}
+			} );
 
 		// A really lightweight plugin wrapper around the constructor,
 		// preventing against multiple instantiations

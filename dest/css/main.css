@@ -2592,6 +2592,14 @@ nav {
 #my_carousel {
   background-size: cover;
   overflow: hidden; }
+  #my_carousel .slider {
+    padding: 0px;
+    margin: 0px; }
+
+.picture_slide {
+  float: left;
+  height: 600px;
+  list-style: none; }
 
 .main_header--title {
   color: #E5E5EC; }
