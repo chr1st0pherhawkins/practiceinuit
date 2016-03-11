@@ -3,8 +3,8 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.boilerplate.js"></script>
 </head>
 <body>
 	<div id-"main_header--wrapper">
@@ -32,7 +32,16 @@
 			</ul>
 		</div>
 		</div>
+		<script> 
+			$( function() {
+				$( "#my_carousel").chris_carousel({
+					rotationSpeed:2000,
+					screenTime:5000
+				});
+			} );
+		</script>
 	</div><!--
+
 
 --><div class="header_description">
 <p class="para_main_header">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
