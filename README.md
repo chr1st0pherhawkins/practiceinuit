@@ -6,15 +6,15 @@ jquery.chris_carousel.js Is a carousel that uses a very basic concept to create 
 
 The folder arrangement is as follows
 
-your-project-folder/
-	dest/
-	     index.html
-	     js/
-            jquery.chris_carousel.js
-            script.min.js
-    src/
-        js/ 
-           jquery.chris_carousel.js
+            your-project-folder/
+            	dest/
+            	     index.html
+            	     js/
+                        jquery.chris_carousel.js
+                        script.min.js
+                src/
+                    js/ 
+                       jquery.chris_carousel.js
 
 Your src/js folder has everything you need to get started using my carousel.
 
@@ -36,11 +36,11 @@ Within the plugin there are default configuration options that determine the 'de
 
 Please see below:
 
-var pluginName = "chrisCarousel",
-    defaults = {
-        rotationSpeed: 1000,
-        screenTime: 1000
-    };
+            var pluginName = "chrisCarousel",
+                defaults = {
+                    rotationSpeed: 1000,
+                    screenTime: 1000
+                };
 
 As you can see the default time for both configuration options is '1000' which is the equivalent of a second.
 
