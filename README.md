@@ -30,7 +30,7 @@ It works by using a div called "my_carousel" and using a basic unordered list. A
 
 I have given then ul a class of "slider" and the 'li' a class of "picture_slide". The jquery.chris_carousel.js plugin uses these classes to assist with the animation of the carousel.
 
-What is going on in the jquery.chris.carousel?
+## What is going on in the jquery.chris.carousel?
 
 Within the plugin there are default configuration options that determine the 'default' rotation speed ('rotationSpeed') and the time the image stays on the screen ('screenTime')
 
