@@ -75,18 +75,18 @@ By using a task runner such as Grunt or Gulp you can concat and uglify this plug
 
 ## So What do you need to do?
 
-Once you have created the un ordered list you need to implement this plugin into your own HTML. You can do this by adding <script> tags within the html document itself or by creating a new file. 
+Once you have created the un ordered list you need to implement this plugin into your own HTML. You can do this by adding script tags within the html doc itself or by creating a 'new' file. 
 
 Please see plugin implementaion code below:
 
-<script> 
-$( function() {
-	$( "#my_carousel").chrisCarousel({
-		rotationSpeed:2000,
-		screenTime:5000
-	});
-} );
-</script>
+               <script> 
+                $( function() {
+                	$( "#my_carousel").chrisCarousel({
+                		rotationSpeed:2000,
+                		screenTime:5000
+                	});
+                } );
+                </script>
 
 As you can see this uses the class of the div that wraps the un ordered list which I have called 'my_carousel' and binds the plugin function onto it. 
 
