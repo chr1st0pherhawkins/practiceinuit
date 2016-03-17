@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
      uglify: {
       build:{
-        src:'src/js/jquery.boilerplate.js',
+        src:'src/js/jquery.chris_carousel.js',
         dest:'dest/js/script.min.js'
       },
     },
@@ -35,6 +35,14 @@ module.exports = function(grunt) {
         }]
       },
     },
+    jslint: { // configure the task 
+      // lint your project's server code 
+      server: {
+        src: [ // some example files 
+          'src/js/jquery.chris_carousel.js',
+          ]
+        }
+      }
   });
 
   // Load the plugin that provides the "uglify" task.
@@ -42,9 +50,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-jslint');
 
   // Default task(s).
   grunt.registerTask('default',['uglify:build','sass']);
   grunt.registerTask('watch',['watch']);
   grunt.registerTask('image',['imagemin']);
+  grunt.registerTask('lint',['jslint']);
 };
