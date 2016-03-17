@@ -20,13 +20,13 @@ Your src/js folder has everything you need to get started using my carousel.
 
 It works by using a div called "my_carousel" and using a basic unordered list. Add the images to the list items.
 
- <!-- <div id="my_carousel">
-    <ul class="slider">
-    	<li class="picture_slide"><img src="images/Fish.jpg" alt="Fish"></li>
-    	<li class="picture_slide"><img src="images/elephant.jpg" alt="Elephant"></li>
-    	<li class="picture_slide"><img src="images/giraffe.jpg" alt="Penguins"></li>
-    </ul>
-   </div>-->
+             <!-- <div id="my_carousel">
+                <ul class="slider">
+                	<li class="picture_slide"><img src="images/Fish.jpg" alt="Fish"></li>
+                	<li class="picture_slide"><img src="images/elephant.jpg" alt="Elephant"></li>
+                	<li class="picture_slide"><img src="images/giraffe.jpg" alt="Penguins"></li>
+                </ul>
+               </div>-->
 
 I have given then ul a class of "slider" and the 'li' a class of "picture_slide". The jquery.chris_carousel.js plugin uses these classes to assist with the animation of the carousel.
 
@@ -49,7 +49,7 @@ As you can see the default time for both configuration options is '1000' which i
 
 Below is the jquery code that creates the carousel functionality.
 
- var y = $(window).width();
+            var y = $(window).width();
         
             var t = setInterval(function () {
                 $("#my_carousel ul").animate({marginLeft: - y }, defaults.rotationSpeed, function () {
