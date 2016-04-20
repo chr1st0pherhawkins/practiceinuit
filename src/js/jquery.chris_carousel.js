@@ -21,9 +21,9 @@
         },
 
         myCarousel: function () {
-         var y = $(window).width();
-        
-            var t = setInterval(function () {
+            var y, t;
+            y = $(window).width();
+            t = setInterval(function () {
                 $("#my_carousel ul").animate({marginLeft: - y }, defaults.rotationSpeed, function () {
                     $(this).find(".picture_slide:last").after($(this).find(".picture_slide:first"));
                     $(this).css({marginLeft: 0});
