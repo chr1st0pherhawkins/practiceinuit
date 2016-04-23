@@ -9,7 +9,6 @@
   "homepage": "https://github.com/chr1st0pherhawkins/practiceinuit",
   "moduleType": [],
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",
