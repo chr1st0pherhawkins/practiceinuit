@@ -30,7 +30,7 @@
                 })
             }, defaults.screenTime);
             $(".picture_slide").css("width", y);
-            $(".slider").css("width", y * 3);		
+            $(".slider").css("width", y * 3);       
         }
     } );
 
