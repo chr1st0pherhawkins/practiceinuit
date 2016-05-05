@@ -1542,6 +1542,10 @@ label,
  *
  */
 .flexbox {
+<<<<<<< HEAD
+=======
+  color: #fff;
+>>>>>>> 0a20f917e274eeec74154a22e12d690a09750dd6
   display: table;
   width: 100%; }
 

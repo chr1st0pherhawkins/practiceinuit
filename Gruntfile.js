@@ -18,7 +18,11 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
+<<<<<<< HEAD
         files: ['dest/css/main.scss'],
+=======
+        files: ['dest/scss/main.scss'],
+>>>>>>> 0a20f917e274eeec74154a22e12d690a09750dd6
         tasks: ['sass'],
         options: {
           spawn: false,
@@ -29,7 +33,11 @@ module.exports = function(grunt) {
       dynamic: {                         // Another target
         files: [{
           expand: true,                  // Enable dynamic expansion
+<<<<<<< HEAD
           cwd: 'src/images/',                // Src matches are relative to this path
+=======
+          cwd: 'images/',                // Src matches are relative to this path
+>>>>>>> 0a20f917e274eeec74154a22e12d690a09750dd6
           src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
           dest: 'dest/images'        // Destination path prefix
         }]
