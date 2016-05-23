@@ -22,15 +22,36 @@
 
         myCarousel: function () {
             var y, t;
+            var buttons = true;
+
             y = $(window).width();
             t = setInterval(function () {
+                if (buttons == false)
+               {
+
                 $("#my_carousel ul").animate({marginLeft: - y }, defaults.rotationSpeed, function () {
                     $(this).find(".picture_slide:last").after($(this).find(".picture_slide:first"));
                     $(this).css({marginLeft: 0});
-                })
+                }) }
             }, defaults.screenTime);
             $(".picture_slide").css("width", y);
-            $(".slider").css("width", y * 3);       
+            $(".slider").css("width", y * 3); 
+
+    if (buttons == true){
+            $('#next').click(function(){
+   $("#my_carousel ul").animate({marginLeft: - y }, defaults.rotationSpeed, function () {
+                    $(this).find(".picture_slide:last").after($(this).find(".picture_slide:first"));
+                    $(this).css({marginLeft: 0});
+    });
+});  
+              $('#previous').click(function(){
+   $("#my_carousel ul").animate({marginLeft: + y }, defaults.rotationSpeed, function () {
+                    $(this).find(".picture_slide:first").before($(this).find(".picture_slide:last"));
+                    $(this).css({marginLeft: 0});
+    });
+});  
+        }
+        
         }
     });
 
